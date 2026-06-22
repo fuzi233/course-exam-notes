@@ -1,0 +1,4 @@
+interface:
+  display_name: "Course Exam Notes"
+  short_description: "Extract exam-ready Markdown notes from course PPT/PDF materials."
+  default_prompt: "Use this skill to audit course PPT/PDF/tutorial/past-paper sources and create concise Markdown notes for exam memorisation."
