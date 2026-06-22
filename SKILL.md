@@ -20,6 +20,24 @@ Create exam-oriented Markdown notes from course source files. Prioritise source 
 - Keep notes compact enough for memorisation, but not lazy: every expected topic needs definition, core points, example, evidence, and exam sentence.
 - Prefer exam-answer wording over generic textbook prose.
 
+## Universal Answer Dimensions
+
+When extracting or writing any topic, check these general exam-answer dimensions. They apply across product development, marketing, software engineering, management, and similar applied courses.
+
+Only include dimensions supported by the source files; do not fill empty categories by invention.
+
+| Dimension | Use for |
+|---|---|
+| Core definition | What the concept means and what problem it addresses |
+| Types / categories | Classifications, taxonomies, variants, levels, or roles |
+| Process / steps | Lifecycles, workflows, methods, stages, procedures |
+| Evaluation criteria | Quality attributes, success metrics, decision criteria, assessment dimensions |
+| Comparison | Similar concepts, alternatives, before/after, method A vs method B |
+| Applicability | When to use it, boundary conditions, suitable/unsuitable contexts |
+| Pros / cons / trade-offs | Benefits, limitations, risks, costs, and tensions |
+| Artefacts / outputs | Documents, diagrams, deliverables, models, reports, code, or decisions produced |
+| Exam templates | Reusable answer structure, operation steps, or case-application sequence |
+
 ## Workflow
 
 ### 1. Establish Scope
@@ -66,7 +84,7 @@ Use appropriate document tools/skills:
 - DOC/DOCX: convert/extract text.
 - HTML/web exports: strip boilerplate and inspect visible content.
 
-For each source, identify title/topic, definitions, stages/steps, types/classifications, benefits/limitations, examples/cases, exercises/questions, and repeated or exam-like phrasing. For large files, search/read relevant sections and mark `[partial] selectively searched/read for relevant sections`.
+For each source, identify title/topic, definitions, answer dimensions, examples/cases, exercises/questions, and repeated or exam-like phrasing. For large files, search/read relevant sections and mark `[partial] selectively searched/read for relevant sections`.
 
 Keep file + page/slide/question references when available so important claims can be traced.
 
@@ -90,14 +108,14 @@ Read past papers and sample answers before writing summaries. Produce:
 |---|---|---|---|
 ```
 
-Detect question styles: define X; explain phases/steps/types; describe uses/roles; discuss benefits/limitations; compare/contrast; give examples; apply to case/product/company.
+Detect question styles: define X; classify types/categories; explain process/steps; evaluate by criteria; compare/contrast; discuss applicability; discuss pros/cons/trade-offs; identify artefacts/outputs; give examples; apply to case/product/company/system.
 
 Assign priorities from evidence:
 
 - **A**: directly tested, repeated, or foundational for many answers.
 - **B**: examinable and useful, but less directly evidenced by past papers.
 
-Avoid `C-level` skim sections unless the user explicitly requests them. For each A-priority topic, capture likely answer shape: definition, list/process, compare/contrast, discuss/evaluate, or case application.
+Avoid `C-level` skim sections unless the user explicitly requests them. For each A-priority topic, capture likely answer shape using the universal answer dimensions: definition, classification, process, evaluation, comparison, applicability, trade-off, artefact/output, or case application.
 
 ### 6. Write the Main Notes
 
@@ -119,6 +137,7 @@ Recommended structure:
 #### Core definition
 #### 中文辅助理解
 #### Must memorise for this topic
+#### Answer dimensions
 #### Core points
 #### Universal example
 #### Evidence
@@ -135,6 +154,7 @@ Topic section requirements:
 - **Core definition**: 1-3 English definitions, source-aligned.
 - **中文辅助理解**: one short Chinese memory hook.
 - **Must memorise for this topic**: exact process names, definitions, classifications, and high-frequency lists.
+- **Answer dimensions**: compact checklist of source-supported dimensions for this topic, such as types, process, evaluation criteria, comparison, applicability, trade-offs, artefacts/outputs, and exam templates.
 - **Core points**: 5-12 bullets; start each with a bold English keyword and exam-ready explanation.
 - **Universal example**: one source-supported example plus 2-3 exam sentences; add Chinese memory angle if useful.
 - **Evidence**: 1-3 source pointers, preferably file + slide/page/question.
@@ -151,7 +171,8 @@ Core point format:
 Run a mechanical check where possible:
 
 - topic count equals expected topic count
-- every topic has Core definition, 中文辅助理解, Must memorise, Core points, Universal example, Evidence, Exam sentence
+- every topic has Core definition, 中文辅助理解, Must memorise, Answer dimensions, Core points, Universal example, Evidence, Exam sentence
+- universal answer dimensions were considered, and unsupported dimensions were omitted rather than invented
 - audit file exists if referenced
 - no placeholders, unfinished markers, or hidden missing files
 - no unsupported claims presented as fact
